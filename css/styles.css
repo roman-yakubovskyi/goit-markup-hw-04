@@ -210,6 +210,23 @@ button {
   overflow: hidden;
 }
 
+.container-subtitle-icon {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.subtitle-icon {
+  background-color: #f4f4fd;
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .features-list {
   display: flex;
   align-items: center;
