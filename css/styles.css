@@ -305,6 +305,24 @@ button {
   color: #434455;
 }
 
+.our-team-soc-list {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team-soc-link {
+  padding-top: 8px;
+  padding-bottom: 32px;
+  display: inline-block;
+}
+
+.our-team-soc-icon {
+  fill: transparent;
+  stroke: #f4f4fd;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
 .our-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
