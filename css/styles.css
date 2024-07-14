@@ -184,7 +184,7 @@ button {
   min-width: 169px;
   height: 56px;
   border: none;
-  transition: color 250 ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250 ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -307,20 +307,30 @@ button {
 
 .our-team-soc-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
+  margin: 8px 16px 0 16px;
+}
+
+.our-team-soc-item {
+  width: 40px;
+  height: 40px;
 }
 
 .our-team-soc-link {
-  padding-top: 8px;
-  padding-bottom: 32px;
-  display: inline-block;
-}
-
-.our-team-soc-icon {
-  fill: transparent;
-  stroke: #f4f4fd;
+  display: flex;
   background-color: #4d5ae5;
   border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-team-soc-link:hover,
+.our-team-soc-link:focus {
+  background-color: #404bbf;
 }
 
 .our-portfolio {
