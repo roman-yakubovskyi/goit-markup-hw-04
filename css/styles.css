@@ -431,14 +431,8 @@ button {
   max-width: 264px;
 }
 
-.container {
-}
-
 .footer-container {
   margin-right: 120px;
-}
-
-.page-footer-social {
 }
 
 .page-footer-social-text {
@@ -475,7 +469,4 @@ button {
 .page-footer-soc-link:hover,
 .page-footer-soc-link:focus {
   background-color: #31d0aa;
-}
-
-.page-footer-soc-icon {
 }
