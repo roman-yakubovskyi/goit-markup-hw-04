@@ -320,7 +320,6 @@ button {
 .our-team-soc-item {
   width: 40px;
   height: 40px;
-  fill: #f4f4fd;
 }
 
 .our-team-soc-link {
@@ -331,6 +330,7 @@ button {
   border-radius: 50%;
   width: 100%;
   height: 100%;
+  fill: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -458,7 +458,6 @@ button {
 .page-footer-soc-item {
   width: 40px;
   height: 40px;
-  fill: #f4f4fd;
 }
 
 .page-footer-soc-link {
@@ -469,6 +468,7 @@ button {
   align-items: center;
   width: 100%;
   height: 100%;
+  fill: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
